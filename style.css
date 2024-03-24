@@ -1,0 +1,84 @@
+.list {
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+body {
+    background-image: url(./photo_2024-03-24_00-51-44.jpg);
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;
+    color: white bo
+}
+
+.books {
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.sect {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.book-links-section {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Semi-transparent white background */
+    margin: 30px auto;
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    color: #333;
+    /* Dark text color for readability */
+    max-width: 600px;
+    /* Maximum width of the section */
+}
+
+.book-links-section h2 {
+    margin-bottom: 10px;
+    color: #2C3E50;
+    /* A darker shade for the heading */
+}
+
+.book-links-section p {
+    margin-bottom: 20px;
+    color: #34495E;
+    /* A slightly lighter shade for the paragraph */
+}
+
+.book-links {
+    display: flex;
+    flex-direction: column;
+    /* Stack links vertically */
+    align-items: center;
+    gap: 10px;
+}
+
+.book-link {
+    width: 250px;
+    background-color: #3498DB;
+    /* A pleasant blue for the links */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+.book-link:hover {
+    background-color: #2980B9;
+    /* A darker shade of blue on hover */
+}
