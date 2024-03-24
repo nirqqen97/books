@@ -4,6 +4,15 @@
     padding: 10px;
 }
 
+.trans {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
 body {
     background-image: url(./photo_2024-03-24_00-51-44.jpg);
 }
