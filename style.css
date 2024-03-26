@@ -5,7 +5,7 @@
 }
 
 .trans {
-    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
@@ -90,4 +90,10 @@ body {
 .book-link:hover {
     background-color: #2980B9;
     /* A darker shade of blue on hover */
+}
+
+.section-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
